@@ -18,4 +18,7 @@ Benchmarks:
 
 ```text
 $ ./bench.sh
+day01: 0.002s
+day02: 0.002s
+day03: 0.002s
 ```
