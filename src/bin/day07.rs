@@ -19,7 +19,6 @@ struct Directory {
 
 #[derive(Debug)]
 struct File {
-    name: String,
     size: usize,
 }
 
@@ -91,7 +90,6 @@ fn main() {
                 directories[cur_directory_id].child_ids.push(ChildType::Directory(new_id));
             } else {
                 let new_file = File{
-                    name: name.to_string(),
                     size: size.parse::<usize>().unwrap()
                 };
 

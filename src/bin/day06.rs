@@ -33,10 +33,6 @@ impl<T: std::clone::Clone + std::cmp::PartialEq + std::cmp::Ord> Circular<T> {
         self.sorted.sort();
     }
  
-    fn contains(&self, val: &T) -> bool {
-        return self.vec.contains(val);
-    }
- 
     fn all_unique(&self) -> bool {
         for i in 1..self.vec.len() {
             if self.sorted[i-1] == self.sorted[i] {
