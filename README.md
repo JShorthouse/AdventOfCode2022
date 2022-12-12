@@ -1,4 +1,4 @@
-# AdventOfCode2021
+# AdventOfCode2022
 
 My solutions for [Advent of Code](https://adventofcode.com/2022/) 2022.
 
@@ -29,4 +29,5 @@ day08: 0.002s
 day09: 0.003s
 day10: 0.002s
 day11: 0.009s
+day12: 0.002s
 ```
